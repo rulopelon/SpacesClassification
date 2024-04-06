@@ -1,0 +1,55 @@
+2024-03-24 14:21:51,654 INFO    MainThread:14864 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-24 14:21:51,655 INFO    MainThread:14864 [wandb_setup.py:_flush():76] Configure stats pid to 14864
+2024-03-24 14:21:51,655 INFO    MainThread:14864 [wandb_setup.py:_flush():76] Loading settings from C:\Users\raul\.config\wandb\settings
+2024-03-24 14:21:51,655 INFO    MainThread:14864 [wandb_setup.py:_flush():76] Loading settings from C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\settings
+2024-03-24 14:21:51,655 INFO    MainThread:14864 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-24 14:21:51,655 INFO    MainThread:14864 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-24 14:21:51,657 INFO    MainThread:14864 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'DeepLearning\\mainTraining.py', 'program_abspath': 'C:\\Users\\raul\\Universidad Pontificia Comillas\\Javier Álvarez Martínez - MachineLoooorning\\DeepLearning\\mainTraining.py', 'program': 'C:\\Users\\raul\\Universidad Pontificia Comillas\\Javier Álvarez Martínez - MachineLoooorning\\DeepLearning\\mainTraining.py'}
+2024-03-24 14:21:51,657 INFO    MainThread:14864 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\run-20240324_142151-4ps9xh3l\logs\debug.log
+2024-03-24 14:21:51,658 INFO    MainThread:14864 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\run-20240324_142151-4ps9xh3l\logs\debug-internal.log
+2024-03-24 14:21:51,658 INFO    MainThread:14864 [wandb_init.py:init():566] calling init triggers
+2024-03-24 14:21:51,658 INFO    MainThread:14864 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-24 14:21:51,659 INFO    MainThread:14864 [wandb_init.py:init():616] starting backend
+2024-03-24 14:21:51,659 INFO    MainThread:14864 [wandb_init.py:init():620] setting up manager
+2024-03-24 14:21:51,672 INFO    MainThread:14864 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-24 14:21:51,678 INFO    MainThread:14864 [wandb_init.py:init():628] backend started and connected
+2024-03-24 14:21:51,705 INFO    MainThread:14864 [wandb_init.py:init():720] updated telemetry
+2024-03-24 14:21:51,710 INFO    MainThread:14864 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-24 14:21:53,660 INFO    MainThread:14864 [wandb_run.py:_on_init():2262] communicating current version
+2024-03-24 14:21:55,019 INFO    MainThread:14864 [wandb_run.py:_on_init():2271] got version response 
+2024-03-24 14:21:55,020 INFO    MainThread:14864 [wandb_init.py:init():804] starting run threads in backend
+2024-03-24 14:22:06,769 WARNING MainThread:14864 [wandb_init.py:init():1198] interrupted
+Traceback (most recent call last):
+  File "C:\Users\raul\.conda\envs\noestructurados\Lib\site-packages\wandb\sdk\wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "C:\Users\raul\.conda\envs\noestructurados\Lib\site-packages\wandb\sdk\wandb_init.py", line 846, in init
+    run._on_start()
+  File "C:\Users\raul\.conda\envs\noestructurados\Lib\site-packages\wandb\sdk\wandb_run.py", line 2294, in _on_start
+    self._backend.interface.publish_python_packages(working_set())
+  File "C:\Users\raul\.conda\envs\noestructurados\Lib\site-packages\wandb\sdk\interface\interface.py", line 284, in publish_python_packages
+    for pkg in working_set:
+  File "C:\Users\raul\.conda\envs\noestructurados\Lib\site-packages\wandb\util.py", line 1878, in working_set
+    yield InstalledDistribution(key=d.metadata["Name"], version=d.version)
+                                    ^^^^^^^^^^
+  File "C:\Users\raul\.conda\envs\noestructurados\Lib\importlib\metadata\__init__.py", line 617, in metadata
+    return _adapters.Message(email.message_from_string(text))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raul\.conda\envs\noestructurados\Lib\email\__init__.py", line 37, in message_from_string
+    return Parser(*args, **kws).parsestr(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raul\.conda\envs\noestructurados\Lib\email\parser.py", line 67, in parsestr
+    return self.parse(StringIO(text), headersonly=headersonly)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raul\.conda\envs\noestructurados\Lib\email\parser.py", line 57, in parse
+    return feedparser.close()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raul\.conda\envs\noestructurados\Lib\email\feedparser.py", line 186, in close
+    root = self._pop_message()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raul\.conda\envs\noestructurados\Lib\email\feedparser.py", line 208, in _pop_message
+    def _pop_message(self):
+    
+KeyboardInterrupt
+2024-03-24 14:22:14,552 WARNING MsgRouterThr:14864 [router.py:message_loop():77] message_loop has been closed

@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-03-24T13:13:30.606284",
+    "startedAt": "2024-03-24T13:13:15.591655",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\raul\\Universidad Pontificia Comillas\\Javier \u00c1lvarez Mart\u00ednez - MachineLoooorning\\DeepLearning\\mainTraining.py",
+    "codePathLocal": "DeepLearning\\mainTraining.py",
+    "codePath": "DeepLearning\\mainTraining.py",
+    "host": "DESKTOP-ESCKD3A",
+    "username": "raul",
+    "executable": "C:\\Users\\raul\\.conda\\envs\\noestructurados\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2927.0,
+        "min": 0.0,
+        "max": 2927.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2927.0,
+            "min": 0.0,
+            "max": 2927.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 894.2490196228027,
+            "used": 574.2566184997559
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1060 6GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1060 6GB",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 11.983619689941406
+    }
+}

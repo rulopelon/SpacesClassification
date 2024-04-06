@@ -1,0 +1,15 @@
+Bedroom
+Coast
+Forest
+Highway
+Industrial
+Inside city
+Kitchen
+Living room
+Mountain
+Office
+Open country
+Store
+Street
+Suburb
+Tall building

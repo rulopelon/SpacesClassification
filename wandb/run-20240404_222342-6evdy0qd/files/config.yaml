@@ -1,0 +1,78 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.7
+    cli_version: 0.16.4
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1712262222.0
+    t:
+      1:
+      - 1
+      - 35
+      - 41
+      - 55
+      2:
+      - 1
+      - 35
+      - 41
+      - 55
+      3:
+      - 23
+      4: 3.11.7
+      5: 0.16.4
+      8:
+      - 3
+      - 5
+      13: windows-amd64
+n_layers:
+  desc: null
+  value: 6
+lr:
+  desc: null
+  value: 0.002360661749940998
+optimizer:
+  desc: null
+  value: Adam
+unfreezed_layers:
+  desc: null
+  value: 9
+dropout0:
+  desc: null
+  value: 0.09443150920013443
+neuronas0:
+  desc: null
+  value: 51
+dropout1:
+  desc: null
+  value: 0.20780684140981565
+neuronas1:
+  desc: null
+  value: 120
+dropout2:
+  desc: null
+  value: 0.0866025399334458
+neuronas2:
+  desc: null
+  value: 171
+dropout3:
+  desc: null
+  value: 0.04133081087799406
+neuronas3:
+  desc: null
+  value: 92
+dropout4:
+  desc: null
+  value: 0.04401385744086972
+neuronas4:
+  desc: null
+  value: 119
+dropout5:
+  desc: null
+  value: 0.19282293199923706
+neuronas5:
+  desc: null
+  value: 31

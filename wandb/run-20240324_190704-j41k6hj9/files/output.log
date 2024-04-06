@@ -1,0 +1,6 @@
+
+Epoch 1/1000 - Train Loss: 2.7081, Train Accuracy: 0.0666
+Epoch 1/1000 - Validation Loss: 2.7070, Validation Accuracy: 0.0879
+Epoch 2/1000 - Train Loss: 2.7081, Train Accuracy: 0.0662
+Epoch 2/1000 - Validation Loss: 2.7078, Validation Accuracy: 0.0700
+Epoch 3/1000 - Train Loss: 2.7080, Train Accuracy: 0.0671

@@ -1,0 +1,55 @@
+2024-03-24 14:18:51,113 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-24 14:18:51,113 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Configure stats pid to 2816
+2024-03-24 14:18:51,114 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\raul\.config\wandb\settings
+2024-03-24 14:18:51,114 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\settings
+2024-03-24 14:18:51,114 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-24 14:18:51,114 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-24 14:18:51,120 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'DeepLearning\\mainTraining.py', 'program_abspath': 'C:\\Users\\raul\\Universidad Pontificia Comillas\\Javier Álvarez Martínez - MachineLoooorning\\DeepLearning\\mainTraining.py', 'program': 'C:\\Users\\raul\\Universidad Pontificia Comillas\\Javier Álvarez Martínez - MachineLoooorning\\DeepLearning\\mainTraining.py'}
+2024-03-24 14:18:51,121 INFO    MainThread:2816 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\run-20240324_141851-f74f1gz5\logs\debug.log
+2024-03-24 14:18:51,121 INFO    MainThread:2816 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\run-20240324_141851-f74f1gz5\logs\debug-internal.log
+2024-03-24 14:18:51,122 INFO    MainThread:2816 [wandb_init.py:init():566] calling init triggers
+2024-03-24 14:18:51,122 INFO    MainThread:2816 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-24 14:18:51,122 INFO    MainThread:2816 [wandb_init.py:init():591] re-initializing run, found existing run on stack: at2s5orr
+2024-03-24 14:18:51,123 INFO    MainThread:2816 [wandb_run.py:_finish():1970] finishing run raulgonzalez/ImagesClassification/at2s5orr
+2024-03-24 14:18:51,123 INFO    MainThread:2816 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-24 14:18:51,124 INFO    MainThread:2816 [wandb_run.py:_restore():2193] restore
+2024-03-24 14:18:51,124 INFO    MainThread:2816 [wandb_run.py:_restore():2199] restore done
+2024-03-24 14:18:57,002 INFO    MainThread:2816 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-24 14:18:57,003 INFO    MainThread:2816 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-24 14:18:57,012 INFO    MainThread:2816 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-03-24 14:18:58,730 INFO    MainThread:2816 [wandb_init.py:init():616] starting backend
+2024-03-24 14:18:58,730 INFO    MainThread:2816 [wandb_init.py:init():620] setting up manager
+2024-03-24 14:18:58,743 INFO    MainThread:2816 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-24 14:18:58,744 INFO    MainThread:2816 [wandb_init.py:init():628] backend started and connected
+2024-03-24 14:18:58,769 INFO    MainThread:2816 [wandb_init.py:init():720] updated telemetry
+2024-03-24 14:18:58,774 INFO    MainThread:2816 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-24 14:19:00,515 INFO    MainThread:2816 [wandb_run.py:_on_init():2262] communicating current version
+2024-03-24 14:19:01,884 INFO    MainThread:2816 [wandb_run.py:_on_init():2271] got version response 
+2024-03-24 14:19:01,884 INFO    MainThread:2816 [wandb_init.py:init():804] starting run threads in backend
+2024-03-24 14:19:14,400 INFO    MainThread:2816 [wandb_run.py:_console_start():2241] atexit reg
+2024-03-24 14:19:14,400 INFO    MainThread:2816 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-03-24 14:19:14,400 INFO    MainThread:2816 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-03-24 14:19:14,401 INFO    MainThread:2816 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-03-24 14:19:14,402 INFO    MainThread:2816 [wandb_init.py:init():847] run started, returning control to user process
+2024-03-24 14:19:14,406 INFO    MainThread:2816 [wandb_run.py:_config_callback():1343] config_cb None None {'n_layers': 17, 'lr': 0.047934894441743904, 'optimizer': 'Adam', 'features_lineales': 376, 'kernel_size_0': 29, 'padding_0': 11, 'bias_0': False, 'channels_0': 180, 'strides0': 286, 'pool_kernel0': 8, 'stride_kernel0': 6, 'kernel_size_1': 24, 'padding_1': 13, 'bias_1': True, 'channels_1': 170, 'strides1': 114, 'pool_kernel1': 9, 'stride_kernel1': 3, 'kernel_size_2': 32, 'padding_2': 18, 'bias_2': False, 'channels_2': 154, 'strides2': 137, 'pool_kernel2': 1, 'stride_kernel2': 2, 'kernel_size_3': 6, 'padding_3': 6, 'bias_3': False, 'channels_3': 145, 'strides3': 219, 'pool_kernel3': 2, 'stride_kernel3': 2, 'kernel_size_4': 44, 'padding_4': 3, 'bias_4': False, 'channels_4': 223, 'strides4': 52, 'pool_kernel4': 4, 'stride_kernel4': 5, 'kernel_size_5': 6, 'padding_5': 16, 'bias_5': True, 'channels_5': 141, 'strides5': 160, 'pool_kernel5': 10, 'stride_kernel5': 6, 'kernel_size_6': 21, 'padding_6': 19, 'bias_6': False, 'channels_6': 198, 'strides6': 241, 'pool_kernel6': 8, 'stride_kernel6': 10, 'kernel_size_7': 11, 'padding_7': 19, 'bias_7': False, 'channels_7': 189, 'strides7': 71, 'pool_kernel7': 5, 'stride_kernel7': 3, 'kernel_size_8': 19, 'padding_8': 3, 'bias_8': True, 'channels_8': 17, 'strides8': 151, 'pool_kernel8': 9, 'stride_kernel8': 10, 'kernel_size_9': 14, 'padding_9': 16, 'bias_9': True, 'channels_9': 81, 'strides9': 77, 'pool_kernel9': 2, 'stride_kernel9': 10, 'kernel_size_10': 41, 'padding_10': 11, 'bias_10': False, 'channels_10': 184, 'strides10': 29, 'pool_kernel10': 5, 'stride_kernel10': 2, 'kernel_size_11': 11, 'padding_11': 7, 'bias_11': True, 'channels_11': 68, 'strides11': 217, 'pool_kernel11': 10, 'stride_kernel11': 8, 'kernel_size_12': 31, 'padding_12': 4, 'bias_12': True, 'channels_12': 238, 'strides12': 135, 'pool_kernel12': 2, 'stride_kernel12': 4, 'kernel_size_13': 14, 'padding_13': 6, 'bias_13': True, 'channels_13': 89, 'strides13': 233, 'pool_kernel13': 1, 'stride_kernel13': 2, 'kernel_size_14': 28, 'padding_14': 12, 'bias_14': True, 'channels_14': 157, 'strides14': 94, 'pool_kernel14': 4, 'stride_kernel14': 5, 'kernel_size_15': 25, 'padding_15': 1, 'bias_15': False, 'channels_15': 12, 'strides15': 275, 'pool_kernel15': 2, 'stride_kernel15': 1, 'kernel_size_16': 47, 'padding_16': 16, 'bias_16': True, 'channels_16': 5, 'strides16': 219, 'pool_kernel16': 1, 'stride_kernel16': 9}
+2024-03-24 14:19:39,851 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-24 14:19:39,851 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Configure stats pid to 2816
+2024-03-24 14:19:39,851 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\raul\.config\wandb\settings
+2024-03-24 14:19:39,852 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Loading settings from C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\settings
+2024-03-24 14:19:39,852 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-24 14:19:39,852 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-24 14:19:39,858 INFO    MainThread:2816 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'DeepLearning\\mainTraining.py', 'program_abspath': 'C:\\Users\\raul\\Universidad Pontificia Comillas\\Javier Álvarez Martínez - MachineLoooorning\\DeepLearning\\mainTraining.py', 'program': 'C:\\Users\\raul\\Universidad Pontificia Comillas\\Javier Álvarez Martínez - MachineLoooorning\\DeepLearning\\mainTraining.py'}
+2024-03-24 14:19:39,858 INFO    MainThread:2816 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\run-20240324_141939-i7tpzanl\logs\debug.log
+2024-03-24 14:19:39,859 INFO    MainThread:2816 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\run-20240324_141939-i7tpzanl\logs\debug-internal.log
+2024-03-24 14:19:39,859 INFO    MainThread:2816 [wandb_init.py:init():566] calling init triggers
+2024-03-24 14:19:39,859 INFO    MainThread:2816 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-24 14:19:39,859 INFO    MainThread:2816 [wandb_init.py:init():591] re-initializing run, found existing run on stack: f74f1gz5
+2024-03-24 14:19:39,860 INFO    MainThread:2816 [wandb_run.py:_finish():1970] finishing run raulgonzalez/ImagesClassification/f74f1gz5
+2024-03-24 14:19:39,860 INFO    MainThread:2816 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-24 14:19:39,861 INFO    MainThread:2816 [wandb_run.py:_restore():2193] restore
+2024-03-24 14:19:39,861 INFO    MainThread:2816 [wandb_run.py:_restore():2199] restore done
+2024-03-24 14:19:47,210 INFO    MainThread:2816 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-24 14:19:47,211 INFO    MainThread:2816 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-24 14:19:47,218 INFO    MainThread:2816 [wandb_run.py:_footer_sync_info():3810] logging synced files

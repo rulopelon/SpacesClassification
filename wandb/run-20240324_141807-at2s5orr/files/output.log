@@ -1,0 +1,6 @@
+
+  0%|                                                                                                                                  | 0/1000 [00:23<?, ?it/s]
+[32m[I 2024-03-24 14:18:46,879][39m Trial 0 pruned.
+Given input size: (74x1x1). Calculated output size: (74x0x0). Output size is too small
+Combinación incorrecta
+Empieza el entrenamiento

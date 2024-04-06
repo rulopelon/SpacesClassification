@@ -1,0 +1,400 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.7
+    cli_version: 0.16.4
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1711286338.0
+    t:
+      1:
+      - 1
+      - 35
+      - 41
+      - 55
+      2:
+      - 1
+      - 35
+      - 41
+      - 55
+      3:
+      - 2
+      - 23
+      4: 3.11.7
+      5: 0.16.4
+      8:
+      - 3
+      - 5
+      13: windows-amd64
+n_layers:
+  desc: null
+  value: 17
+lr:
+  desc: null
+  value: 0.047934894441743904
+optimizer:
+  desc: null
+  value: Adam
+features_lineales:
+  desc: null
+  value: 376
+kernel_size_0:
+  desc: null
+  value: 29
+padding_0:
+  desc: null
+  value: 11
+bias_0:
+  desc: null
+  value: false
+channels_0:
+  desc: null
+  value: 180
+strides0:
+  desc: null
+  value: 286
+pool_kernel0:
+  desc: null
+  value: 8
+stride_kernel0:
+  desc: null
+  value: 6
+kernel_size_1:
+  desc: null
+  value: 24
+padding_1:
+  desc: null
+  value: 13
+bias_1:
+  desc: null
+  value: true
+channels_1:
+  desc: null
+  value: 170
+strides1:
+  desc: null
+  value: 114
+pool_kernel1:
+  desc: null
+  value: 9
+stride_kernel1:
+  desc: null
+  value: 3
+kernel_size_2:
+  desc: null
+  value: 32
+padding_2:
+  desc: null
+  value: 18
+bias_2:
+  desc: null
+  value: false
+channels_2:
+  desc: null
+  value: 154
+strides2:
+  desc: null
+  value: 137
+pool_kernel2:
+  desc: null
+  value: 1
+stride_kernel2:
+  desc: null
+  value: 2
+kernel_size_3:
+  desc: null
+  value: 6
+padding_3:
+  desc: null
+  value: 6
+bias_3:
+  desc: null
+  value: false
+channels_3:
+  desc: null
+  value: 145
+strides3:
+  desc: null
+  value: 219
+pool_kernel3:
+  desc: null
+  value: 2
+stride_kernel3:
+  desc: null
+  value: 2
+kernel_size_4:
+  desc: null
+  value: 44
+padding_4:
+  desc: null
+  value: 3
+bias_4:
+  desc: null
+  value: false
+channels_4:
+  desc: null
+  value: 223
+strides4:
+  desc: null
+  value: 52
+pool_kernel4:
+  desc: null
+  value: 4
+stride_kernel4:
+  desc: null
+  value: 5
+kernel_size_5:
+  desc: null
+  value: 6
+padding_5:
+  desc: null
+  value: 16
+bias_5:
+  desc: null
+  value: true
+channels_5:
+  desc: null
+  value: 141
+strides5:
+  desc: null
+  value: 160
+pool_kernel5:
+  desc: null
+  value: 10
+stride_kernel5:
+  desc: null
+  value: 6
+kernel_size_6:
+  desc: null
+  value: 21
+padding_6:
+  desc: null
+  value: 19
+bias_6:
+  desc: null
+  value: false
+channels_6:
+  desc: null
+  value: 198
+strides6:
+  desc: null
+  value: 241
+pool_kernel6:
+  desc: null
+  value: 8
+stride_kernel6:
+  desc: null
+  value: 10
+kernel_size_7:
+  desc: null
+  value: 11
+padding_7:
+  desc: null
+  value: 19
+bias_7:
+  desc: null
+  value: false
+channels_7:
+  desc: null
+  value: 189
+strides7:
+  desc: null
+  value: 71
+pool_kernel7:
+  desc: null
+  value: 5
+stride_kernel7:
+  desc: null
+  value: 3
+kernel_size_8:
+  desc: null
+  value: 19
+padding_8:
+  desc: null
+  value: 3
+bias_8:
+  desc: null
+  value: true
+channels_8:
+  desc: null
+  value: 17
+strides8:
+  desc: null
+  value: 151
+pool_kernel8:
+  desc: null
+  value: 9
+stride_kernel8:
+  desc: null
+  value: 10
+kernel_size_9:
+  desc: null
+  value: 14
+padding_9:
+  desc: null
+  value: 16
+bias_9:
+  desc: null
+  value: true
+channels_9:
+  desc: null
+  value: 81
+strides9:
+  desc: null
+  value: 77
+pool_kernel9:
+  desc: null
+  value: 2
+stride_kernel9:
+  desc: null
+  value: 10
+kernel_size_10:
+  desc: null
+  value: 41
+padding_10:
+  desc: null
+  value: 11
+bias_10:
+  desc: null
+  value: false
+channels_10:
+  desc: null
+  value: 184
+strides10:
+  desc: null
+  value: 29
+pool_kernel10:
+  desc: null
+  value: 5
+stride_kernel10:
+  desc: null
+  value: 2
+kernel_size_11:
+  desc: null
+  value: 11
+padding_11:
+  desc: null
+  value: 7
+bias_11:
+  desc: null
+  value: true
+channels_11:
+  desc: null
+  value: 68
+strides11:
+  desc: null
+  value: 217
+pool_kernel11:
+  desc: null
+  value: 10
+stride_kernel11:
+  desc: null
+  value: 8
+kernel_size_12:
+  desc: null
+  value: 31
+padding_12:
+  desc: null
+  value: 4
+bias_12:
+  desc: null
+  value: true
+channels_12:
+  desc: null
+  value: 238
+strides12:
+  desc: null
+  value: 135
+pool_kernel12:
+  desc: null
+  value: 2
+stride_kernel12:
+  desc: null
+  value: 4
+kernel_size_13:
+  desc: null
+  value: 14
+padding_13:
+  desc: null
+  value: 6
+bias_13:
+  desc: null
+  value: true
+channels_13:
+  desc: null
+  value: 89
+strides13:
+  desc: null
+  value: 233
+pool_kernel13:
+  desc: null
+  value: 1
+stride_kernel13:
+  desc: null
+  value: 2
+kernel_size_14:
+  desc: null
+  value: 28
+padding_14:
+  desc: null
+  value: 12
+bias_14:
+  desc: null
+  value: true
+channels_14:
+  desc: null
+  value: 157
+strides14:
+  desc: null
+  value: 94
+pool_kernel14:
+  desc: null
+  value: 4
+stride_kernel14:
+  desc: null
+  value: 5
+kernel_size_15:
+  desc: null
+  value: 25
+padding_15:
+  desc: null
+  value: 1
+bias_15:
+  desc: null
+  value: false
+channels_15:
+  desc: null
+  value: 12
+strides15:
+  desc: null
+  value: 275
+pool_kernel15:
+  desc: null
+  value: 2
+stride_kernel15:
+  desc: null
+  value: 1
+kernel_size_16:
+  desc: null
+  value: 47
+padding_16:
+  desc: null
+  value: 16
+bias_16:
+  desc: null
+  value: true
+channels_16:
+  desc: null
+  value: 5
+strides16:
+  desc: null
+  value: 219
+pool_kernel16:
+  desc: null
+  value: 1
+stride_kernel16:
+  desc: null
+  value: 9

@@ -1,0 +1,29 @@
+2024-04-04 22:47:18,969 INFO    MainThread:1864 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-04-04 22:47:18,969 INFO    MainThread:1864 [wandb_setup.py:_flush():76] Configure stats pid to 1864
+2024-04-04 22:47:18,970 INFO    MainThread:1864 [wandb_setup.py:_flush():76] Loading settings from C:\Users\raul\.config\wandb\settings
+2024-04-04 22:47:18,970 INFO    MainThread:1864 [wandb_setup.py:_flush():76] Loading settings from C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\settings
+2024-04-04 22:47:18,971 INFO    MainThread:1864 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-04 22:47:18,971 INFO    MainThread:1864 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-04 22:47:18,976 INFO    MainThread:1864 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'DeepLearning\\mainTraining.py', 'program_abspath': 'c:\\Users\\raul\\Universidad Pontificia Comillas\\Javier Álvarez Martínez - MachineLoooorning\\DeepLearning\\mainTraining.py', 'program': 'c:\\Users\\raul\\Universidad Pontificia Comillas\\Javier Álvarez Martínez - MachineLoooorning\\DeepLearning\\mainTraining.py'}
+2024-04-04 22:47:18,977 INFO    MainThread:1864 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\run-20240404_224718-k1ff6fen\logs\debug.log
+2024-04-04 22:47:18,978 INFO    MainThread:1864 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\raul\Universidad Pontificia Comillas\Javier Álvarez Martínez - MachineLoooorning\wandb\run-20240404_224718-k1ff6fen\logs\debug-internal.log
+2024-04-04 22:47:18,979 INFO    MainThread:1864 [wandb_init.py:init():566] calling init triggers
+2024-04-04 22:47:18,979 INFO    MainThread:1864 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-04-04 22:47:18,979 INFO    MainThread:1864 [wandb_init.py:init():616] starting backend
+2024-04-04 22:47:18,980 INFO    MainThread:1864 [wandb_init.py:init():620] setting up manager
+2024-04-04 22:47:19,003 INFO    MainThread:1864 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-04 22:47:19,006 INFO    MainThread:1864 [wandb_init.py:init():628] backend started and connected
+2024-04-04 22:47:19,031 INFO    MainThread:1864 [wandb_init.py:init():720] updated telemetry
+2024-04-04 22:47:19,035 INFO    MainThread:1864 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-04-04 22:47:20,748 INFO    MainThread:1864 [wandb_run.py:_on_init():2262] communicating current version
+2024-04-04 22:47:22,124 INFO    MainThread:1864 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-04 22:47:22,124 INFO    MainThread:1864 [wandb_init.py:init():804] starting run threads in backend
+2024-04-04 22:47:32,936 INFO    MainThread:1864 [wandb_run.py:_console_start():2241] atexit reg
+2024-04-04 22:47:32,936 INFO    MainThread:1864 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-04-04 22:47:32,937 INFO    MainThread:1864 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-04-04 22:47:32,937 INFO    MainThread:1864 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-04-04 22:47:32,938 INFO    MainThread:1864 [wandb_init.py:init():847] run started, returning control to user process
+2024-04-04 22:47:32,939 INFO    MainThread:1864 [wandb_run.py:_config_callback():1343] config_cb None None {'n_layers': 5, 'lr': 7.434151977364627e-05, 'optimizer': 'Adam', 'unfreezed_layers': 9, 'dropout0': 0.12103850784192893, 'neuronas0': 179, 'dropout1': 0.1243750878960157, 'neuronas1': 100, 'dropout2': 0.350905594948295, 'neuronas2': 193, 'dropout3': 0.7964706729743066, 'neuronas3': 60, 'dropout4': 0.7254497038509901, 'neuronas4': 115}
+2024-04-04 23:32:40,618 WARNING MsgRouterThr:1864 [router.py:message_loop():77] message_loop has been closed
