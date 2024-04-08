@@ -14,6 +14,7 @@ img_size = 224
 
 def load_model():
    dict = torch.load("DeepLearning/model_48.pth",map_location=torch.device('cpu'))
+   dict = torch.load("DeepLearning/modelo_final.pth")
    # Cargar el modelo
    num_classes = 15
    list_dropouts =  [0.4154439238682205,0.21085094262884393,0.4313465383566946, 0.32912701708030556,0.4898772544775635]
