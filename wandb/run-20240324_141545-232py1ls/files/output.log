@@ -1,6 +1,0 @@
-
-Empieza el entrenamiento
-  0%|                                                                                                                                  | 0/1000 [00:21<?, ?it/s]
-[32m[I 2024-03-24 14:16:36,054][39m Trial 4 pruned.
-Given input size: (75x2x2). Calculated output size: (75x-1x-1). Output size is too small
-Combinación incorrecta

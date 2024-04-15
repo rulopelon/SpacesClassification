@@ -1,6 +1,0 @@
-
-Empieza el entrenamiento
-  0%|                                                                                                                                  | 0/1000 [00:23<?, ?it/s]
-[32m[I 2024-03-24 14:13:15,580][39m Trial 0 pruned.
-Calculated padded input size per channel: (19 x 19). Kernel size: (34 x 34). Kernel size can't be greater than actual input size
-Combinación incorrecta

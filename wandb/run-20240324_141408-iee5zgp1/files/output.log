@@ -1,6 +1,0 @@
-
-Empieza el entrenamiento
-  0%|                                                                                                                                  | 0/1000 [00:00<?, ?it/s]
-Given input size: (97x2x2). Calculated output size: (97x0x0). Output size is too small
-  0%|                                                                                                                                  | 0/1000 [00:22<?, ?it/s]
-[32m[I 2024-03-24 14:14:56,135][39m Trial 2 pruned.
